@@ -7,16 +7,16 @@
                     src="/assets/images/svgs/microsoft-logo-no-text.svg"
                     alt="Microsoft | Open Source logo"
                 />
-                <span class="p-lg text-white">Microsoft | Open Source</span>
+                <span class="p-lg text-white">Mohammad Hossein Tavangar</span>
             </a>
         </div>
 
         <ul class="site-header__nav">
-            <li{% if page.id == 'collaborate' %} class="is-active" aria-current="page" {% endif %}>
-                <a href="{{ "/collaborate/" | relative_url }}">Get involved</a>
-            </li>
             <li{% if page.id == 'projects' %} class="is-active" aria-current="page" {% endif %}>
-                <a href="{{ "/projects/" | relative_url }}">Projects</a>
+                <a href="{{ "/projects/" | relative_url }}">Resume</a>
+            </li>
+            <li{% if page.id == 'collaborate' %} class="is-active" aria-current="page" {% endif %}>
+                <a href="{{ "/collaborate/" | relative_url }}">Partnership</a>
             </li>
             <li{% if page.id == 'ecosystem' %} class="is-active" aria-current="page" {% endif %}>
                 <a href="{{ "/ecosystem/" | relative_url }}">Ecosystem</a>
